@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENTGO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- ✅ AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div data-aos="fade-up">
+            <h1>STUDENTGO</h1>
+            </div>
+            <div data-aos="fade-up">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" onclick="hideMenu()">HOME</a></li>
+                    <li><a href="HOUSING.html" onclick="hideMenu()">HOUSING</a></li>
+                    <li><a href="LOCATIONS.html" onclick="hideMenu()">LOCATIONS</a></li>
+                    <li><a href="HEALTH.html" onclick="hideMenu()">HEALTH</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu () "></i>
+        </nav>
+        <div class="text-box">
+            <div data-aos="fade-down"
+            data-aos-easing="linear"
+     data-aos-duration="1500">
+        <h1>Welcome to Student Life in Rabat</h1>
+        <p>Your essential guide to accommodation, budget tips, and making the most of student life in Morocco's capital</p>
+        <a href="HOUSING.html" class="hero-btn">Explore Rabat Guides</a>
+        </div>
+    </div>
+    </section>
+    <section class="hero">
+        <h2>Welcome to Student Go</h2>
+        <p>Explore, live, and thrive in Rabat — your guide to student life in the city.</p>
+
+
+
+    </section>
+    </div>
+    <div data-aos="zoom-in-up">
+    <section class="cardsSS">
+        <div class="card">
+            <h4> HOUSING</h4>
+            <p>Find safe and affordable housing options close to your university.
+                Student Go helps you explore studios, shared apartments, and student residences across Rabat — all verified and easy to contact.</p>
+            <a href="HOUSING.html" class="hero-btn">Learn More →</a>
+        </div>
+        <div class="card">
+            <h4>LOCATIONS</h4>
+            <p>Explore the city like a local!
+                Student Go guides you to the best cafés, study spaces, and hangout spots in Rabat — perfect for learning, relaxing, or meeting friends.</p>
+            <a href="LOCATIONS.html" class="hero-btn">Learn More →</a>
+        </div>
+        <div class="card">
+            <h4>HEALTH</h4>
+            <p>Take care of your body and mind while studying.
+               Discover nearby clinics, gyms, pharmacies, and wellness centers that support your health and student lifestyle in Rabat.</p>
+            <a href="HEALTH.html" class="hero-btn">Learn More →</a>
+        </div>
+  </section>
+  </div>
+  <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+  <section class="tests">
+  <h5>WHAT STUDENT SAYS</h5>
+
+  <div class="row">
+    <div class="test">
+      <img src="user.jpg" alt="Student 1">
+      <div class="test-content">
+        <p>
+          Ce site m'a sauvé la vie pour trouver un logement étudiant à Rabat !
+          En une semaine, j'avais trouvé une colocation sympa près de la fac.
+        </p>
+        <h6>Chama Berley</h6>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="test">
+      <img src="user.jpg" alt="Student 2">
+      <div class="test-content">
+        <p>
+          Grâce à STUDENTGO, j'ai évité beaucoup de galères en arrivant à Rabat.
+          Les infos sur les bons plans m'ont vraiment aidé à m'adapter rapidement.
+        </p>
+        <h6>Mehdi Atiq</h6>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </div>
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+  <section class="abs">
+    <P>STUDENTGO is your trusted companion for student life in Rabat. We simplify the journey of settling into a new city by connecting you with verified resources, essential services, and a community that understands your needs.<br>Because your education should be your main focus, not finding a pharmacy at midnight.</P>
+    </section>
+    </div>
+    <div data-aos="fade-down">
+    <section class="footer">
+        <h8>About Us</h8>
+        <p>As three students who navigated Rabat's challenges ourselves, we created STUDENTGO to make your transition easier than ours was </p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o" ></i> by students for students in Rabat</p>
+            <p>© 2025 Student Go</p>
+        </section>
+        </div>
+
+ 
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu (){
+            navLinks. style.right = "0";
+        }
+        function hideMenu (){
+            navLinks.style.right ="-220px";
+        }
+
+        window.addEventListener("load", () => {
+        hideMenu();
+    });
+
+    </script>
+
+    <!-- ✅ AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, 
+            once: true, 
+            offset: 100
+        });
+    </script>
+</body>
+</html>
